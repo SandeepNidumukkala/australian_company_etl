@@ -1,0 +1,15 @@
+name: 'australian_company_etl'
+version: '1.0.0'
+config-version: 2
+
+profile: 'australian_company_etl'
+
+model-paths: ["models"]
+test-paths: ["tests"]
+
+models:
+  australian_company_etl:
+    staging:
+      materialized: view
+    marts:
+      materialized: table

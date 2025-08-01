@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: public
+    schema: public
+    tables:
+      - name: raw_abr
+      - name: raw_common_crawl
+      - name: unified_companies  # ✅ Add this line
