@@ -9,7 +9,7 @@ A robust, scalable ETL pipeline to extract, clean, reconcile, and serve unified 
 1\. Database Schema — PostgreSQL DDL
 ------------------------------------
 
-All DDL files are in [/sql/schema.sql](https://www.perplexity.ai/search/sql/schema.sql).
+All DDL files are in [/sql/schema.sql].
 
 **Key Tables**:
 
